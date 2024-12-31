@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "RentalStatus": {
+      "null": "",
+      "RENT_AVAILABLE": "대출 가능",
+      "RENT_UNAVAILABLE": "대출 불가능"
+    }
+  }
+}

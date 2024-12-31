@@ -1,0 +1,35 @@
+{
+  "gatewayApp": {
+    "rentalRentedItem": {
+      "home": {
+        "title": "Rented Items",
+        "createLabel": "Create a new Rented Item",
+        "createOrEditLabel": "Create or edit a Rented Item",
+        "notFound": "No Rented Items found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Rented Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Rented Item"
+      },
+      "doOverdue": {
+        "title": "해당 도서 연체처리 승인",
+        "question": " 해당 도서를 연체 처리 하시겠습니까? ",
+        "completed": " 해당 도서 연체 처리가 완료되었습니다. "
+      },
+      "bookId": "Book Id",
+      "rentedDate": "대출 날짜",
+      "dueDate": "반납 예정 날짜",
+      "bookTitle": "도서 이름",
+      "rental": "Rental"
+    }
+  },
+  "rentalApp": {
+    "rentalRentedItem": {
+      "created": "A new Rented Item is created with identifier {{ param }}",
+      "updated": "A Rented Item is updated with identifier {{ param }}",
+      "deleted": "A Rented Item is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "gatewayApp": {
+    "rentalRental": {
+      "home": {
+        "title": "Rentals",
+        "createLabel": "Create a new Rental",
+        "createOrEditLabel": "Create or edit a Rental",
+        "notFound": "No Rentals found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Rental {{ id }}?"
+      },
+      "detail": {
+        "title": "Rental"
+      },
+      "doRent": {
+        "title": "도서 대출 신청",
+        "question": "{{ param }} 을 대출하시겠습니까?",
+        "rented": "신청한 도서 {{ param }} 가 대출완료되었습니다."
+      },
+      "releaseOverdue": {
+        "title": "연체료 결제 신청",
+        "question": "연체료 결제 후 연체 상태를 해제하시겠습니까?",
+        "result": "연체 해제가 완료되었습니다."
+      },
+      "userId": "User Id",
+      "rentalStatus": "Rental Status",
+      "lateFee": "연체료",
+      "rentedItem": "대출 도서",
+      "overdueItem": "연체 도서",
+      "returnedItem": "반납 도서"
+    }
+  },
+  "rentalApp": {
+    "rentalRental": {
+      "created": "A new Rental is created with identifier {{ param }}",
+      "updated": "A Rental is updated with identifier {{ param }}",
+      "deleted": "A Rental is deleted with identifier {{ param }}"
+    }
+  }
+}
